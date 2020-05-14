@@ -4,8 +4,7 @@ $b = ", but";
 $c = "fail";
 
 
-echo 'T' . $a . 'and ' . $c . ' . $b .' . never . ' . $c . ' . to . ' . $a . '.  ' <br>';
+
+echo 'T' . $a . ' and ' . $c . $b . ' never ' . $c . ' to t' . $a . '<br>';
 echo '-Tyra Banks';
-
-
 

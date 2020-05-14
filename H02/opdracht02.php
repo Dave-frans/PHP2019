@@ -1,7 +1,7 @@
 <?php
-$a = "Ik heb niet gefaald";
-$b = "die niet werken";
-$c = 10000;
+$a = "die geen fout";
+$b = "en";
+$c = "niet.";
 
-echo $a . '. Ik heb alleen ' . $c . ' manieren gevonden ' . $b . '.<br>';
-echo  '-Thomas Edison<br>';
+echo 'M' . $b . 'sen ' . $a . $b . ' mak' . $b . ', werk ' . $b . ''. $c . '<br>';
+echo '-Albert Plesman (KLM)';
