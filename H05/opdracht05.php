@@ -12,7 +12,7 @@ function check_credentials($mailadres, $wachtwoord) {
 
     global $users;
 
-    foreach ($users as $key => $value){
+    foreach ($users as $key => $value) {
         if ($key == $mailadres AND $value == $wachtwoord) {
 
             return true;
@@ -22,16 +22,16 @@ function check_credentials($mailadres, $wachtwoord) {
 }
 
 if (isset($_POST['knop'])) {
-    if (!isset($_POST['$mailadres']) OR empty($_POST['$mailadres'])) {
+    if (!isset($_POST['mailadres']) OR empty($_POST['mailadres'])) {
         $_SESSION['error'] = "Je bent vergeten je mailadres in te vullen.";
         header("Location:" . $_SERVER['PHP_SELF']);
     }
-    if (!isset($_POST['$wachtwoord']) OR empty($_POST['$wachtwoord'])) {
+    if (!isset($_POST['wachtwoord']) OR empty($_POST['wachtwoord'])) {
         $_SESSION['error'] = "Je bent vergeten je wachtwoord in te vullen.";
         header("Location:" . $_SERVER['PHP_SELF']);
     }
-    $mailadres = $_POST['$mailadres'];
-    $wachtwoord = $_POST ['$wachtwoord'];
+    $mailadres = $_POST['mailadres'];
+    $wachtwoord = $_POST ['wachtwoord'];
 
     if (check_credentials($mailadres, $wachtwoord)) {
         exit("Welkom!");
