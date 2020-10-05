@@ -14,7 +14,7 @@
 <body>
 <?php
 // inloggegevens sql database en op welke sever je zit
-$servername = "localhost";
+$servername = "phpschool";
 $username = "root";
 $password = "";
 
