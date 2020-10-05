@@ -14,12 +14,12 @@
 <body>
 <?php
 // inloggegevens sql database en op welke sever je zit
-$servername = "phpschool";
-$username = "root";
-$password = "";
+$servername = "id13683268_phpschool";
+$username = "id13683268_root";
+$password = "Pi\2Y0eORQ}\$gx}";
 
 try {
-    $conn = new PDO("mysql:host=$servername;dbname=newschema", $username, $password);
+    $conn = new PDO("mysql:host=$servername;dbname=phpschool", $username, $password);
     //set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 //    echo "connected successfully";
@@ -50,4 +50,4 @@ echo '</tables>';
 ?>
 
 </body>
-</html>
+</html>>
