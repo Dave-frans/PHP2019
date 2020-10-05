@@ -1,11 +1,16 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Tabel Cursisten</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>link</title>
+    <style>
+        table, tr, td{
+            border: solid 1px black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+    </style>
 </head>
-
 <body>
 <table>
     <tr>
