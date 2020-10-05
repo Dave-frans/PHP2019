@@ -14,9 +14,9 @@
 <body>
 <?php
 // inloggegevens sql database en op welke sever je zit
-$servername = "id13683268_phpschool";
-$username = "id13683268_root";
-$password = "Pi\2Y0eORQ}\$gx}";
+$servername = "localhost";
+$username = "root";
+$password = "";
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=phpschool", $username, $password);
